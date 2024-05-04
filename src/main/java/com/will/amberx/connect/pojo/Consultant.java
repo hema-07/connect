@@ -1,4 +1,4 @@
-package com.will.amberx.connect.util;
+package com.will.amberx.connect.pojo;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -18,4 +18,6 @@ public class Consultant {
     private int experience;
     private List<String> skills;
     private String consultantId;
+    private List<Client> clientList;
+    private List<CaseDetails> caseDetails;
 }

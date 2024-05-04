@@ -1,12 +1,12 @@
-package com.will.amberx.connect.util;
+package com.will.amberx.connect.pojo;
 
+import com.will.amberx.connect.pojo.CaseDetails;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
 
 @Getter
 @Setter
